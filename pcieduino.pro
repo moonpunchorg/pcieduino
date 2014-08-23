@@ -1,4 +1,4 @@
-update=Thu 21 Aug 2014 10:42:49 PM CST
+update=Sat 23 Aug 2014 06:28:34 PM CST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -86,3 +86,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
+LibName33=/home/greg/moonpunch/electronics/moonpunch_lib/PCIE-MINI
