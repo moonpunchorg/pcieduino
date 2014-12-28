@@ -1,0 +1,117 @@
+PCBNEW-LibModule-V1  Sun 28 Dec 2014 07:11:21 PM CST
+# encoding utf-8
+Units mm
+$INDEX
+PICe_p1
+miniPCIeConn
+$EndINDEX
+$MODULE PICe_p1
+Po 0 0 0 15 53FF4369 00000000 ~~
+Li PICe_p1
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.81 1 1 0 0.15 N V 21 N "PICe_p1"
+T1 6.35 -1.27 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 10 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "2" R 10 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.27 6.35
+$EndPAD
+$PAD
+Sh "3" R 10 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.27 12.7
+$EndPAD
+$PAD
+Sh "4" R 10 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.27 19.05
+$EndPAD
+$EndMODULE PICe_p1
+$MODULE miniPCIeConn
+Po 0 0 0 15 549FE536 00000000 ~~
+Li miniPCIeConn
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.81 1 1 0 0.15 N V 21 N "miniPICeConn"
+T1 6.35 -1.27 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 2.3 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" R 2.3 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0.8
+$EndPAD
+$PAD
+Sh "5" R 2.3 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.6
+$EndPAD
+$PAD
+Sh "7" R 2.3 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 2.4
+$EndPAD
+$PAD
+Sh "9" R 2.3 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 3.2
+$EndPAD
+$PAD
+Sh "11" R 2.3 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 4
+$EndPAD
+$PAD
+Sh "13" R 2.3 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 4.8
+$EndPAD
+$PAD
+Sh "15" R 2.3 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 5.6
+$EndPAD
+$PAD
+Sh "2" R 2.3 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 0 0.4
+$EndPAD
+$EndMODULE miniPCIeConn
+$EndLIBRARY
