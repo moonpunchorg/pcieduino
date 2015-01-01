@@ -1,0 +1,220 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Fri 02 Jan 2015 12:25:35 AM CST
+
+BeginCmp
+TimeStamp = /549E716D;
+Reference = C1;
+ValeurCmp = 10p;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /549E717C;
+Reference = C2;
+ValeurCmp = 10p;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F60B6F;
+Reference = C3;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F606AD;
+Reference = C4;
+ValeurCmp = 10p;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F606BC;
+Reference = C5;
+ValeurCmp = 10p;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA01C2;
+Reference = C6;
+ValeurCmp = 10u;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA001F;
+Reference = C7;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F60A95;
+Reference = C8;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA0F8B;
+Reference = C9;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /549E7751;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /549E7760;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA0DD2;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F9F576;
+Reference = F1;
+ValeurCmp = FUSE;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F6042B;
+Reference = IC1;
+ValeurCmp = ATMEGA328P-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FF05BE;
+Reference = J1;
+ValeurCmp = PCIE-MINI;
+IdModule  = miniPCIeConn;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA0B08;
+Reference = J2;
+ValeurCmp = DIGITAL2;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA0B3F;
+Reference = J3;
+ValeurCmp = POWER;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F9FD80;
+Reference = J4;
+ValeurCmp = ISP;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA0301;
+Reference = J5;
+ValeurCmp = ANALOG;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA0335;
+Reference = J6;
+ValeurCmp = DIGITAL;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /549E7779;
+Reference = R1;
+ValeurCmp = 550;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /549E6F7D;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /549E7788;
+Reference = R3;
+ValeurCmp = 550;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA0DC3;
+Reference = R4;
+ValeurCmp = 100;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA0410;
+Reference = R5;
+ValeurCmp = 1K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA041F;
+Reference = R6;
+ValeurCmp = 1K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F6091E;
+Reference = R7;
+ValeurCmp = 10K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F60946;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SWITCH;
+EndCmp
+
+BeginCmp
+TimeStamp = /549E6F4C;
+Reference = U1;
+ValeurCmp = MCP2200;
+IdModule  = SSOP20;
+EndCmp
+
+BeginCmp
+TimeStamp = /549E7154;
+Reference = X1;
+ValeurCmp = 12MHz;
+IdModule  = SMDXTAL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F60670;
+Reference = X2;
+ValeurCmp = 8MHz;
+IdModule  = SMDXTAL;
+EndCmp
+
+EndListe
