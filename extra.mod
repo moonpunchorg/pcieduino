@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Sat 03 Jan 2015 09:14:30 PM CST
+PCBNEW-LibModule-V1  Sat 03 Jan 2015 10:13:09 PM CST
 # encoding utf-8
 Units mm
 $INDEX
@@ -6,6 +6,8 @@ SMDXTAL
 SMDXTAL_50x32
 SMD_SWITCH
 SWITCH
+pin_array_6x1
+pin_array_8x1
 $EndINDEX
 $MODULE SMDXTAL
 Po 0 0 0 15 549FDF5C 00000000 ~~
@@ -185,4 +187,144 @@ Ne 0 ""
 Po 3.975 2.25
 $EndPAD
 $EndMODULE SWITCH
+$MODULE pin_array_6x1
+Po 0 0 0 15 54A7F8EB 00000000 ~~
+Li pin_array_6x1
+Cd Double rangee de contacts 2 x 8 pins
+Kw CONN
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.95 1.016 1.016 0 0.2032 N V 21 N "PIN_ARRAY_6x1"
+T1 0 2.1 1.016 1.016 0 0.2032 N V 21 N "Val**"
+DS -7.5 -1.1 7.5 -1.1 0.15 21
+DS 7.5 -1.1 7.5 1.1 0.15 21
+DS 7.5 1.1 -7.5 1.1 0.15 21
+DS -7.5 1.1 -7.5 -1.1 0.15 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_8x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_array_6x1
+$MODULE pin_array_8x1
+Po 0 0 0 15 54A7F65F 00000000 ~~
+Li pin_array_8x1
+Cd Double rangee de contacts 2 x 8 pins
+Kw CONN
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.95 1.016 1.016 0 0.2032 N V 21 N "PIN_ARRAY_8x1"
+T1 0 2.1 1.016 1.016 0 0.2032 N V 21 N "Val**"
+DS -10 -1.1 10 -1.1 0.15 21
+DS 10 -1.1 10 1.1 0.15 21
+DS 10 1.1 -10 1.1 0.15 21
+DS -10 1.1 -10 -1.1 0.15 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_8x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_array_8x1
 $EndLIBRARY

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sat 03 Jan 2015 09:15:04 PM CST
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sat 03 Jan 2015 10:13:38 PM CST
 
 BeginCmp
 TimeStamp = /549E716D;
@@ -106,24 +106,31 @@ IdModule  = miniPCIeConn;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FA0B3F;
-Reference = J3;
-ValeurCmp = POWER;
-IdModule  = SIL-6;
+TimeStamp = /54A7F47E;
+Reference = J2;
+ValeurCmp = ANALOG;
+IdModule  = pin_array_8x1;
 EndCmp
 
 BeginCmp
 TimeStamp = /53F9FD80;
-Reference = J4;
+Reference = J3;
 ValeurCmp = ISP;
 IdModule  = pin_array_3x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FA0301;
+TimeStamp = /53FA0B3F;
+Reference = J4;
+ValeurCmp = POWER;
+IdModule  = pin_array_6x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A7E504;
 Reference = J5;
-ValeurCmp = ANALOG;
-IdModule  = SIL-6;
+ValeurCmp = DIGITAL;
+IdModule  = PIN_ARRAY_15x1;
 EndCmp
 
 BeginCmp
@@ -138,13 +145,6 @@ TimeStamp = /54A7DBE8;
 Reference = MOUNTING_HOLE2;
 ValeurCmp = CONN_1;
 IdModule  = PIN_ARRAY_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54A7E504;
-Reference = P1;
-ValeurCmp = DIGITAL;
-IdModule  = PIN_ARRAY_15x1;
 EndCmp
 
 BeginCmp
