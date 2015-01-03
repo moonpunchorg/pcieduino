@@ -1,8 +1,10 @@
-PCBNEW-LibModule-V1  Sun 28 Dec 2014 06:45:59 PM CST
+PCBNEW-LibModule-V1  Sat 03 Jan 2015 09:14:30 PM CST
 # encoding utf-8
 Units mm
 $INDEX
 SMDXTAL
+SMDXTAL_50x32
+SMD_SWITCH
 SWITCH
 $EndINDEX
 $MODULE SMDXTAL
@@ -47,6 +49,99 @@ Ne 0 ""
 Po -2.8 1.1
 $EndPAD
 $EndMODULE SMDXTAL
+$MODULE SMDXTAL_50x32
+Po 0 0 0 15 54A7E73E 00000000 ~~
+Li SMDXTAL_50x32
+Sc 0
+AR 
+Op 0 0 0
+T0 0.2 -2.9 1 1 0 0.15 N V 21 N "SMDXTAL_50x32"
+T1 0 3 1 1 0 0.15 N V 21 N "X**"
+DS -3.3 -2.2 3.3 -2.2 0.15 21
+DS 3.3 -2.2 3.3 2.2 0.15 21
+DS 3.3 2.2 -3.3 2.2 0.15 21
+DS -3.3 2.2 -3.3 -2.2 0.15 21
+DS 0.7 -0.4 -0.7 0.4 0.15 21
+$PAD
+Sh "" R 1.8 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 -1.2
+$EndPAD
+$PAD
+Sh "2" R 1.8 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 -1.2
+$EndPAD
+$PAD
+Sh "" R 1.8 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 1.2
+$EndPAD
+$PAD
+Sh "1" R 1.8 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 1.2
+$EndPAD
+$EndMODULE SMDXTAL_50x32
+$MODULE SMD_SWITCH
+Po 0 0 0 15 54A7EB32 00000000 ~~
+Li SMD_SWITCH
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.55 0.5 0.5 0 0.125 N V 21 N "SMD_SWITCH"
+T1 0 1.5 0.5 0.5 0 0.125 N V 21 N "SW**"
+DS 0.25 0 0.5 0 0.15 21
+DS 0.25 -0.3 0.25 0.3 0.15 21
+DS 0 0.6 0 0.3 0.15 21
+DS 0 -0.6 0 -0.3 0.15 21
+DS -0.8 0.6 0.8 0.6 0.15 21
+DS -0.8 -0.6 0.8 -0.6 0.15 21
+$PAD
+Sh "1" R 0.55 0.57 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.275 -0.58
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "1" R 0.55 0.57 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.275 -0.58
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "2" R 0.55 0.57 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.275 0.58
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "2" R 0.55 0.57 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.275 0.58
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$EndMODULE SMD_SWITCH
 $MODULE SWITCH
 Po 0 0 0 15 54390364 00000000 ~~
 Li SWITCH

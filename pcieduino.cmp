@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Fri 02 Jan 2015 12:25:35 AM CST
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sat 03 Jan 2015 09:15:04 PM CST
 
 BeginCmp
 TimeStamp = /549E716D;
@@ -106,13 +106,6 @@ IdModule  = miniPCIeConn;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FA0B08;
-Reference = J2;
-ValeurCmp = DIGITAL2;
-IdModule  = SIL-8;
-EndCmp
-
-BeginCmp
 TimeStamp = /53FA0B3F;
 Reference = J3;
 ValeurCmp = POWER;
@@ -134,10 +127,24 @@ IdModule  = SIL-6;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FA0335;
-Reference = J6;
+TimeStamp = /54A7DBF7;
+Reference = MOUNTING_HOLE1;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A7DBE8;
+Reference = MOUNTING_HOLE2;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A7E504;
+Reference = P1;
 ValeurCmp = DIGITAL;
-IdModule  = SIL-8;
+IdModule  = PIN_ARRAY_15x1;
 EndCmp
 
 BeginCmp
@@ -193,7 +200,7 @@ BeginCmp
 TimeStamp = /53F60946;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
-IdModule  = SWITCH;
+IdModule  = SMD_SWITCH;
 EndCmp
 
 BeginCmp
@@ -207,14 +214,14 @@ BeginCmp
 TimeStamp = /549E7154;
 Reference = X1;
 ValeurCmp = 12MHz;
-IdModule  = SMDXTAL;
+IdModule  = SMDXTAL_50x32;
 EndCmp
 
 BeginCmp
 TimeStamp = /53F60670;
 Reference = X2;
 ValeurCmp = 8MHz;
-IdModule  = SMDXTAL;
+IdModule  = SMDXTAL_50x32;
 EndCmp
 
 EndListe

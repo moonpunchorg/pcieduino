@@ -1,13 +1,11 @@
-update=Sun 28 Dec 2014 06:54:49 PM CST
+update=Fri 02 Jan 2015 12:32:17 AM CST
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=/home/greg/moonpunch/electronics/lib/kicadlibrary;/home/greg/moonpunch/electronics/opl
@@ -90,3 +88,5 @@ LibName15=pga_sockets
 LibName16=valves
 LibName17=extra
 LibName18=pciestuff
+[general]
+version=1
