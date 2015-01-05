@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sun 04 Jan 2015 06:55:08 PM CST
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mon 05 Jan 2015 11:21:26 PM CST
 
 BeginCmp
 TimeStamp = /549E716D;
@@ -207,7 +207,7 @@ BeginCmp
 TimeStamp = /549E7154;
 Reference = X1;
 ValeurCmp = 12MHz;
-IdModule  = SMDXTAL_50x32;
+IdModule  = SMDXTAL_32x25;
 EndCmp
 
 BeginCmp

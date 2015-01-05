@@ -1,10 +1,11 @@
-PCBNEW-LibModule-V1  Sun 04 Jan 2015 06:54:37 PM CST
+PCBNEW-LibModule-V1  Mon 05 Jan 2015 11:09:29 PM CST
 # encoding utf-8
 Units mm
 $INDEX
 PIN_ARRAY_13x1
 PIN_ARRAY_14x1
 SMDXTAL
+SMDXTAL_32x25
 SMDXTAL_50x32
 SMD_SWITCH
 SWITCH
@@ -272,8 +273,60 @@ Ne 0 ""
 Po -2.8 1.1
 $EndPAD
 $EndMODULE SMDXTAL
+$MODULE SMDXTAL_32x25
+Po 0 0 0 15 54AAA924 00000000 ~~
+Li SMDXTAL_32x25
+Sc 0
+AR 
+Op 0 0 0
+T0 0.2 -2.6 1 1 0 0.15 N V 21 N "SMDXTAL_32x25"
+T1 0 2.7 1 1 0 0.15 N V 21 N "X**"
+DS 2.1 -1.8 2.1 1.8 0.15 21
+DS 2.1 1.8 -2.1 1.8 0.15 21
+DS -2.1 1.8 -2.1 -1.8 0.15 21
+DS -2.1 -1.8 2.1 -1.8 0.15 21
+DS 0.2032 -0.4572 0 -0.4572 0.15 21
+DS 0 -0.4572 0 0.4572 0.15 21
+DS 0 0.4572 -0.2032 0.4572 0.15 21
+$PAD
+Sh "3" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.1 -0.85
+.SolderMask 0.1524
+.LocalClearance 0.1524
+$EndPAD
+$PAD
+Sh "2" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.1 -0.85
+.SolderMask 0.1524
+.LocalClearance 0.1524
+$EndPAD
+$PAD
+Sh "3" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.1 0.85
+.SolderMask 0.1524
+.LocalClearance 0.1524
+$EndPAD
+$PAD
+Sh "1" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.1 0.85
+.SolderMask 0.1524
+.LocalClearance 0.1524
+$EndPAD
+$EndMODULE SMDXTAL_32x25
 $MODULE SMDXTAL_50x32
-Po 0 0 0 15 54A8A859 00000000 ~~
+Po 0 0 0 15 54AAA64C 00000000 ~~
 Li SMDXTAL_50x32
 Sc 0
 AR 
@@ -286,7 +339,7 @@ DS 3.3 2.2 -3.3 2.2 0.15 21
 DS -3.3 2.2 -3.3 -2.2 0.15 21
 DS 0.7 -0.4 -0.7 0.4 0.15 21
 $PAD
-Sh "" R 1.8 1.2 0 0 0
+Sh "3" R 1.8 1.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -304,7 +357,7 @@ Po 2 -1.2
 .LocalClearance 0.1524
 $EndPAD
 $PAD
-Sh "" R 1.8 1.2 0 0 0
+Sh "3" R 1.8 1.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
