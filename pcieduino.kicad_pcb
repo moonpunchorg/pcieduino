@@ -3,7 +3,7 @@
   (general
     (links 107)
     (no_connects 107)
-    (area 48.999999 99.949999 100.050001 130.050001)
+    (area 48.999999 98.59878 103.302866 131.40122)
     (thickness 1.6)
     (drawings 15)
     (tracks 0)
@@ -1124,7 +1124,7 @@
     )
   )
 
-  (module miniPCIeConn (layer F.Cu) (tedit 54A91326) (tstamp 54A9144B)
+  (module miniPCIeConn   locked (layer F.Cu) (tedit 54A91326) (tstamp 54A9144B)
     (at 50.45 111.15)
     (path /53FF05BE)
     (fp_text reference J1 (at 2.5654 -3.2512 90) (layer F.SilkS) hide
@@ -1411,7 +1411,7 @@
     )
   )
 
-  (module PIN_ARRAY_1 (layer F.Cu) (tedit 54A913CF) (tstamp 54A7F2E0)
+  (module PIN_ARRAY_1   locked (layer F.Cu) (tedit 54A913CF) (tstamp 54A7F2E0)
     (at 97.1 127.1)
     (descr "1 pin")
     (tags "CONN DEV")
@@ -1434,7 +1434,7 @@
     )
   )
 
-  (module PIN_ARRAY_1 (layer F.Cu) (tedit 54A913A9) (tstamp 54A91485)
+  (module PIN_ARRAY_1   locked (layer F.Cu) (tedit 54A913A9) (tstamp 54A91485)
     (at 97.1 102.9)
     (descr "1 pin")
     (tags "CONN DEV")
@@ -1544,7 +1544,7 @@
     )
   )
 
-  (module PIN_ARRAY_15x1 (layer F.Cu) (tedit 54A91E7E) (tstamp 54A91F1B)
+  (module PIN_ARRAY_15x1   locked (layer F.Cu) (tedit 54A91E7E) (tstamp 54A91F1B)
     (at 75 102.54 180)
     (descr "Double rangee de contacts 2 x 5 pins")
     (tags CONN)
@@ -1621,7 +1621,7 @@
     )
   )
 
-  (module PIN_ARRAY_13x1 (layer F.Cu) (tedit 54A91E78) (tstamp 54A93327)
+  (module PIN_ARRAY_13x1   locked (layer F.Cu) (tedit 54A91E78) (tstamp 54A93327)
     (at 77.54 127.46 180)
     (descr "Double rangee de contacts 2 x 5 pins")
     (tags CONN)
