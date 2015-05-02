@@ -1,65 +1,58 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mon 05 Jan 2015 11:21:26 PM CST
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sat 02 May 2015 10:19:05 PM CST
 
 BeginCmp
-TimeStamp = /549E716D;
+TimeStamp = /55434382;
 Reference = C1;
-ValeurCmp = 10p;
-IdModule  = SM0603_Capa;
-EndCmp
-
-BeginCmp
-TimeStamp = /549E717C;
-Reference = C2;
-ValeurCmp = 10p;
-IdModule  = SM0603_Capa;
-EndCmp
-
-BeginCmp
-TimeStamp = /53F60B6F;
-Reference = C3;
 ValeurCmp = 0.1u;
 IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /53F606AD;
-Reference = C4;
-ValeurCmp = 10p;
-IdModule  = SM0603_Capa;
-EndCmp
-
-BeginCmp
-TimeStamp = /53F606BC;
-Reference = C5;
-ValeurCmp = 10p;
-IdModule  = SM0603_Capa;
-EndCmp
-
-BeginCmp
 TimeStamp = /53FA01C2;
-Reference = C6;
+Reference = C2;
 ValeurCmp = 10u;
 IdModule  = SM1206POL;
 EndCmp
 
 BeginCmp
 TimeStamp = /53FA001F;
-Reference = C7;
-ValeurCmp = 0.1u;
-IdModule  = SM0603_Capa;
-EndCmp
-
-BeginCmp
-TimeStamp = /53F60A95;
-Reference = C8;
+Reference = C3;
 ValeurCmp = 0.1u;
 IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /53FA0F8B;
-Reference = C9;
+Reference = C4;
 ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F60B6F;
+Reference = C5;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /55434511;
+Reference = C6;
+ValeurCmp = 1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F606BC;
+Reference = C7;
+ValeurCmp = 10p;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F606AD;
+Reference = C8;
+ValeurCmp = 10p;
 IdModule  = SM0603_Capa;
 EndCmp
 
@@ -85,17 +78,17 @@ IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /5543889F;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /53F9F576;
 Reference = F1;
 ValeurCmp = FUSE;
 IdModule  = SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /53F6042B;
-Reference = IC1;
-ValeurCmp = ATMEGA328P-A;
-IdModule  = TQFP32;
 EndCmp
 
 BeginCmp
@@ -106,24 +99,24 @@ IdModule  = miniPCIeConn;
 EndCmp
 
 BeginCmp
-TimeStamp = /54A91C6A;
-Reference = J2;
-ValeurCmp = ANALOG_POWER;
-IdModule  = PIN_ARRAY_13x1;
-EndCmp
-
-BeginCmp
 TimeStamp = /53F9FD80;
-Reference = J3;
+Reference = J2;
 ValeurCmp = ISP;
 IdModule  = pin_array_3x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /54A7E504;
-Reference = J4;
+Reference = J3;
 ValeurCmp = DIGITAL;
 IdModule  = PIN_ARRAY_15x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A91C6A;
+Reference = J4;
+ValeurCmp = ANALOG_POWER;
+IdModule  = PIN_ARRAY_13x1;
 EndCmp
 
 BeginCmp
@@ -141,51 +134,51 @@ IdModule  = PIN_ARRAY_1;
 EndCmp
 
 BeginCmp
-TimeStamp = /549E7779;
+TimeStamp = /55435189;
 Reference = R1;
-ValeurCmp = 550;
+ValeurCmp = 22;
 IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
-TimeStamp = /549E6F7D;
+TimeStamp = /5543517A;
 Reference = R2;
-ValeurCmp = R;
-IdModule  = SM0603_Resistor;
-EndCmp
-
-BeginCmp
-TimeStamp = /549E7788;
-Reference = R3;
-ValeurCmp = 550;
-IdModule  = SM0603_Resistor;
-EndCmp
-
-BeginCmp
-TimeStamp = /53FA0DC3;
-Reference = R4;
-ValeurCmp = 100;
-IdModule  = SM0603_Resistor;
-EndCmp
-
-BeginCmp
-TimeStamp = /53FA0410;
-Reference = R5;
-ValeurCmp = 1K;
-IdModule  = SM0603_Resistor;
-EndCmp
-
-BeginCmp
-TimeStamp = /53FA041F;
-Reference = R6;
-ValeurCmp = 1K;
+ValeurCmp = 22;
 IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /53F6091E;
-Reference = R7;
+Reference = R3;
 ValeurCmp = 10K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /549E7779;
+Reference = R4;
+ValeurCmp = 549;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /549E7788;
+Reference = R5;
+ValeurCmp = 549;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA0DC3;
+Reference = R6;
+ValeurCmp = 100;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /554389A4;
+Reference = R7;
+ValeurCmp = 549;
 IdModule  = SM0603_Resistor;
 EndCmp
 
@@ -197,24 +190,17 @@ IdModule  = SMD_SWITCH;
 EndCmp
 
 BeginCmp
-TimeStamp = /549E6F4C;
+TimeStamp = /55433786;
 Reference = U1;
-ValeurCmp = MCP2200;
-IdModule  = SSOP20;
+ValeurCmp = ATMEGA32U4-AU;
+IdModule  = TQFP44;
 EndCmp
 
 BeginCmp
-TimeStamp = /549E7154;
+TimeStamp = /54AAA50B;
 Reference = X1;
-ValeurCmp = 12MHz;
-IdModule  = SMDXTAL_32x25;
-EndCmp
-
-BeginCmp
-TimeStamp = /53F60670;
-Reference = X2;
 ValeurCmp = 8MHz;
-IdModule  = SMDXTAL_50x32;
+IdModule  = SMDXTAL_32x25;
 EndCmp
 
 EndListe
