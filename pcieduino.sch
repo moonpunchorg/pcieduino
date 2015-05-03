@@ -40,7 +40,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "PCIeDuino32u4 v1"
-Date "2 may 2015"
+Date "3 may 2015"
 Rev "1"
 Comp "moonpunch.org"
 Comment1 ""
@@ -692,13 +692,13 @@ $Comp
 L R R1
 U 1 1 55435189
 P 3650 2950
-F 0 "R1" V 3730 2950 40  0000 C CNN
+F 0 "R1" V 3550 2950 40  0000 C CNN
 F 1 "22" V 3657 2951 40  0000 C CNN
 F 2 "SM0603_Resistor" V 3580 2950 30  0001 C CNN
 F 3 "~" H 3650 2950 30  0000 C CNN
 F 4 "71-CRCW0603-22-E3" V 3650 2950 60  0001 C CNN "MouserPN"
 	1    3650 2950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Text Label 3900 2950 0    60   ~ 0
 D-
