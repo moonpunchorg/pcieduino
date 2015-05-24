@@ -1,4 +1,4 @@
-update=Mon 04 May 2015 01:59:29 PM CST
+update=Sun 24 May 2015 11:24:40 PM CST
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -6,6 +6,8 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=/home/greg/moonpunch/electronics/lib/kicadlibrary;/home/greg/moonpunch/electronics/opl
@@ -49,8 +51,6 @@ LibName31=valves
 LibName32=/home/greg/moonpunch/electronics/moonpunch_lib/PCIE-MINI
 LibName33=seeed_opl
 LibName34=pcieduino
-[general]
-version=1
 [pcbnew]
 version=1
 LastNetListRead=pcieduino.net
@@ -72,23 +72,24 @@ BoardOutlineThickness="    0.100000"
 ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
 LibDir=
-LibName1=OSHW
-LibName2=square
-LibName3=sockets
-LibName4=connect
-LibName5=discret
-LibName6=pin_array
-LibName7=divers
-LibName8=smd_capacitors
-LibName9=smd_resistors
-LibName10=smd_crystal&oscillator
-LibName11=smd_dil
-LibName12=smd_transistors
-LibName13=libcms
-LibName14=display
-LibName15=led
-LibName16=dip_sockets
-LibName17=pga_sockets
-LibName18=valves
-LibName19=extra
-LibName20=pciestuff
+LibName1=MoonPunchLogo
+LibName2=OSHW
+LibName3=square
+LibName4=sockets
+LibName5=connect
+LibName6=discret
+LibName7=pin_array
+LibName8=divers
+LibName9=smd_capacitors
+LibName10=smd_resistors
+LibName11=smd_crystal&oscillator
+LibName12=smd_dil
+LibName13=smd_transistors
+LibName14=libcms
+LibName15=display
+LibName16=led
+LibName17=dip_sockets
+LibName18=pga_sockets
+LibName19=valves
+LibName20=extra
+LibName21=pciestuff
