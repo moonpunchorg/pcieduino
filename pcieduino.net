@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/greg/moonpunch/electronics/pcieduino/pcieduino.sch)
-    (date "Sun 24 May 2015 04:45:03 PM CST")
+    (date "Sat 25 Jul 2015 09:27:59 AM CST")
     (tool "eeschema (2013-may-18)-stable"))
   (components
     (comp (ref C8)
@@ -156,7 +156,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 54AAA50B))
     (comp (ref U1)
-      (value ATMEGA32U4-AU)
+      (value ATMEGA32U4)
       (footprint TQFP44)
       (fields
         (field (name MouserP#) 556-ATMEGA32U4-AU))
